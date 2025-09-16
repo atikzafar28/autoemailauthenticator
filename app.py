@@ -51,3 +51,7 @@ if st.button("Send Email"):
 
         except Exception as e:
             st.error(f"❌ Error: {e}")
+
+# Footer
+st.markdown("---")
+st.markdown("💡 *This app is designed for **Sonali***")
